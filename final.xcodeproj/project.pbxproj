@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		150BE8E21EF5159B00F27E8F /* NotesDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150BE8E11EF5159A00F27E8F /* NotesDetailTableViewController.swift */; };
+		150CDA871EF553820092B4BB /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150CDA861EF553820092B4BB /* NoteTableViewCell.swift */; };
+		150CDA8B1EF5646C0092B4BB /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150CDA8A1EF5646C0092B4BB /* ListTableViewController.swift */; };
+		150CDA8D1EF564F70092B4BB /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150CDA8C1EF564F70092B4BB /* ListTableViewCell.swift */; };
+		150CDA8F1EF5663F0092B4BB /* AddSongTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150CDA8E1EF5663F0092B4BB /* AddSongTableViewController.swift */; };
+		150CDA911EF57FA10092B4BB /* SongDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150CDA901EF57FA10092B4BB /* SongDetailTableViewController.swift */; };
 		157219F41EF4608B00419C28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157219F31EF4608B00419C28 /* AppDelegate.swift */; };
 		157219F61EF4608C00419C28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157219F51EF4608C00419C28 /* ViewController.swift */; };
 		157219F91EF4608C00419C28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157219F71EF4608C00419C28 /* Main.storyboard */; };
@@ -14,6 +20,8 @@
 		157219FE1EF4608C00419C28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157219FC1EF4608C00419C28 /* LaunchScreen.storyboard */; };
 		15721A091EF4608C00419C28 /* finalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15721A081EF4608C00419C28 /* finalTests.swift */; };
 		15721A141EF4608C00419C28 /* finalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15721A131EF4608C00419C28 /* finalUITests.swift */; };
+		15721A221EF463FB00419C28 /* NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15721A211EF463FB00419C28 /* NoteTableViewController.swift */; };
+		15721A241EF4640800419C28 /* AddNoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15721A231EF4640800419C28 /* AddNoteTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		150BE8E11EF5159A00F27E8F /* NotesDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesDetailTableViewController.swift; sourceTree = "<group>"; };
+		150CDA861EF553820092B4BB /* NoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		150CDA8A1EF5646C0092B4BB /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListTableViewController.swift; path = ../ListTableViewController.swift; sourceTree = "<group>"; };
+		150CDA8C1EF564F70092B4BB /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		150CDA8E1EF5663F0092B4BB /* AddSongTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSongTableViewController.swift; sourceTree = "<group>"; };
+		150CDA901EF57FA10092B4BB /* SongDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongDetailTableViewController.swift; sourceTree = "<group>"; };
 		157219F01EF4608B00419C28 /* final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		157219F31EF4608B00419C28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		157219F51EF4608C00419C28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,8 @@
 		15721A0F1EF4608C00419C28 /* finalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15721A131EF4608C00419C28 /* finalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalUITests.swift; sourceTree = "<group>"; };
 		15721A151EF4608C00419C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15721A211EF463FB00419C28 /* NoteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTableViewController.swift; sourceTree = "<group>"; };
+		15721A231EF4640800419C28 /* AddNoteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNoteTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +113,17 @@
 		157219F21EF4608B00419C28 /* final */ = {
 			isa = PBXGroup;
 			children = (
+				150CDA8A1EF5646C0092B4BB /* ListTableViewController.swift */,
 				157219F31EF4608B00419C28 /* AppDelegate.swift */,
 				157219F51EF4608C00419C28 /* ViewController.swift */,
 				157219F71EF4608C00419C28 /* Main.storyboard */,
+				150CDA8E1EF5663F0092B4BB /* AddSongTableViewController.swift */,
+				150CDA8C1EF564F70092B4BB /* ListTableViewCell.swift */,
+				150CDA861EF553820092B4BB /* NoteTableViewCell.swift */,
+				150BE8E11EF5159A00F27E8F /* NotesDetailTableViewController.swift */,
+				15721A211EF463FB00419C28 /* NoteTableViewController.swift */,
+				150CDA901EF57FA10092B4BB /* SongDetailTableViewController.swift */,
+				15721A231EF4640800419C28 /* AddNoteTableViewController.swift */,
 				157219FA1EF4608C00419C28 /* Assets.xcassets */,
 				157219FC1EF4608C00419C28 /* LaunchScreen.storyboard */,
 				157219FF1EF4608C00419C28 /* Info.plist */,
@@ -259,8 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15721A221EF463FB00419C28 /* NoteTableViewController.swift in Sources */,
+				150CDA8D1EF564F70092B4BB /* ListTableViewCell.swift in Sources */,
 				157219F61EF4608C00419C28 /* ViewController.swift in Sources */,
+				15721A241EF4640800419C28 /* AddNoteTableViewController.swift in Sources */,
+				150BE8E21EF5159B00F27E8F /* NotesDetailTableViewController.swift in Sources */,
 				157219F41EF4608B00419C28 /* AppDelegate.swift in Sources */,
+				150CDA8F1EF5663F0092B4BB /* AddSongTableViewController.swift in Sources */,
+				150CDA911EF57FA10092B4BB /* SongDetailTableViewController.swift in Sources */,
+				150CDA871EF553820092B4BB /* NoteTableViewCell.swift in Sources */,
+				150CDA8B1EF5646C0092B4BB /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +535,7 @@
 				15721A1A1EF4608C00419C28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15721A1B1EF4608C00419C28 /* Build configuration list for PBXNativeTarget "finalTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +544,7 @@
 				15721A1D1EF4608C00419C28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15721A1E1EF4608C00419C28 /* Build configuration list for PBXNativeTarget "finalUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +553,7 @@
 				15721A201EF4608C00419C28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
